@@ -2,3 +2,4 @@ project_name,synapse_asset_view,manifest_dataset_id,schema_url
 Fair Demo,syn50896957,syn50900267,https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/main/inst/data_model/dataflow_component.jsonld
 INCLUDE,syn50996463,syn51060574,https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/main/inst/data_model/dataflow_component.jsonld
 HTAN,syn20446927,syn38212343,https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/main/inst/data_model/dataflow_component.jsonld
+no_access_demo,syn222222,syn333333,https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/main/inst/data_model/dataflow_component.jsonld
