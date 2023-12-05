@@ -1,6 +1,6 @@
 # Project configurations for the [Data Flow App](https://github.com/Sage-Bionetworks/data_flow)
 
-Each DCC that will use the Data Flow App will need a record in the `dcc_config.csv`.
+Each DCC that will use the Data Flow App will need a record in the `dcc_config.csv`. Fork this repository, add configurations, and then open a PR.
 
 | Configuration Parameter | Description |
 | --- | --- |
