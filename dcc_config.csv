@@ -1,4 +1,4 @@
 project_name,synapse_asset_view,manifest_dataset_id,schema_url,icon
-Fair Demo,syn50896957,syn53162973,https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/fds-1212-update-data-model/inst/data_model/dataflow_component.jsonld,TRUE
-INCLUDE,syn50996463,syn52799107,https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/fds-1212-update-data-model/inst/data_model/dataflow_component.jsonld,FALSE
-HTAN,syn20446927,syn52799109,https://raw.githubusercontent.com/Sage-Bionetworks/data_flow/fds-1212-update-data-model/inst/data_model/dataflow_component.jsonld,TRUE
+Fair Demo,syn50896957,syn53162973,https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/23151479c608274b6057f9d4f82b9e8294237fdc/Demo/dataflow_component.jsonld,TRUE
+INCLUDE,syn50996463,syn52799107,https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/23151479c608274b6057f9d4f82b9e8294237fdc/INCLUDE/dataflow_component.jsonld,FALSE
+HTAN,syn20446927,syn52799109,https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/23151479c608274b6057f9d4f82b9e8294237fdc/HTAN/dataflow_component.jsonld,TRUE
