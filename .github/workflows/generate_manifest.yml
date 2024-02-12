@@ -2,7 +2,7 @@
 # Generate a data flow manifest
 # Then open a PR to incorporate them into the repo
 # ------------------------------------------------------------------------------
-name: generate-templates
+name: generate-dataflow-manifest
 on:
   workflow_dispatch:
     inputs:
