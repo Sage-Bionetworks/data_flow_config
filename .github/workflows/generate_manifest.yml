@@ -12,6 +12,7 @@ on:
       community_dir:
         description: Community directory
         required: true
+  pull_request:
 
 jobs:
   generate-manifest:
