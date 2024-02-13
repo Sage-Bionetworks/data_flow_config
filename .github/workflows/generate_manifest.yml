@@ -17,6 +17,8 @@ on:
 jobs:
   generate-manifest:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GH_TOKEN }}
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
