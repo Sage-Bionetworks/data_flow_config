@@ -1,0 +1,266 @@
+Component,contributor,dataset_id,dataset_name,dataset_type,num_items,metadata_check,upload_date,release_date,released_destinations,scheduled_release_date,released,status,dataset_size,governance_compliance
+DataFlow,Neuroprotection and optic nerve regeneration in a mouse NF1 OPG model,syn22316952,Raw Data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neuroprotection and optic nerve regeneration in a mouse NF1 OPG model,syn22317830,Immunohistochemistry (3 mo old animals),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neuroprotection and optic nerve regeneration in a mouse NF1 OPG model,syn22725170,Electron Microscopy of optic nerve - Nf1-OPG mice (3 mo old animals),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neuroprotection and optic nerve regeneration in a mouse NF1 OPG model,syn22761358,Immunohistochemistry (5 mo old animals),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neuroprotection and optic nerve regeneration in a mouse NF1 OPG model,syn22889489,Aim 3 (non-NF1 animal) data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neuroprotection and optic nerve regeneration in a mouse NF1 OPG model,syn22889499,qPCR analysis,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neurofibromatosis Demo,syn22410515,RNASeq,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neurofibromatosis Demo,syn22410517,RNA-seq Test 2,RNASeqTemplate,4,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neurofibromatosis Demo,syn24611057,Sample Seq Data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neurofibromatosis Demo,syn24611067,Sample Imaging Data,ImagingAssayTemplate,3,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neurofibromatosis Demo,syn25007853,App Demo,GenomicsAssayTemplate,1,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neurofibromatosis Demo,syn25386362,RNA Sequencing 03-29-21,GenomicsAssayTemplate,2,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neurofibromatosis Demo,syn25750653,RNA-seq batch subset,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neurofibromatosis Demo,syn48391539,Another RNA-seq folder,GenomicsAssayTemplate,1,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Neurofibromatosis Demo,syn53181344,Whole Genome Sequencing,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn25881331,Raw Data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn33298098,"Fetal Brain, Olig2 Imaging",,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn33303256,"Fetal Brain, Ki67 Imaging",,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn33303262,"Fetal Brain, GFAP Imaging",,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn33732747,GFAP Milestone 1-2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn33754177,Ki67 Milestone 1-2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn33754756,Olig2 Milestone 1-2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn50613381,"Optic Nerve, Raw Images",,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn50613382,"Optic Nerve, Ki67 Staining",,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn50613383,"Optic Nerve, Iba1 Staining",,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn50613485,"Milestone 3, Ki67 OpN",,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn50613713,"Milestone 3, Iba1 OpN",,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn51928655,"Milestone 3, OpN raw images",,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn51928662,"Milestone 4, OpN Raw Images",ImagingAssayTemplate,20,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn51928832,"Milestone 4, Ki67 OpN",ImagingAssayTemplate,32,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn51930033,"Milestone 4, Iba1 OpN",ImagingAssayTemplate,29,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn53212015,"Milestone 5, OpN Raw Images",ImagingAssayTemplate,20,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn53212165,"Milestone 5, Ki67 OpN",ImagingAssayTemplate,33,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn53212272,"Milestone 5, Iba1 OpN",ImagingAssayTemplate,28,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Defining the factors that dictate the pattern of glioma formation in NF1,syn53212351,Energy Expenditure,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn33325769,Milestone 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn33325843,Milestone 2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn43437856,Milestone 2 - Images,ImagingAssayTemplate,15,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn43438480,Fig 2B,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn43438538,Fig 2a,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn43438861,Fig 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn50529380,Milestone 3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn51216448,Milestone 3 - Western Blot,ImagingAssayTemplate,4,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn51216449,Milestone 3 - Multi-Electrode-Array Analysis,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn51216551,Milestone 3 - plate-based colorimetric assays,GenomicsAssayTemplate,2,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn51216552,Milestone 1 - plate-based colorimetric assays,PlateBasedReporterAssayTemplate,1,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn51216553,Milestone 1 - graphs,GenomicsAssayTemplate,6,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn51216728,Milestone 2 - graphs,GenomicsAssayTemplate,4,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn51216732,Milestone 2 - cell counts excel sheets,GenomicsAssayTemplate,6,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn51286546,Milestone 3 - MEA key,GenomicsAssayTemplate,1,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn51770868,Milestone 4,PlateBasedReporterAssayTemplate,2,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn53181737,Milestone 5,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn53181742,Western blot images,ImagingAssayTemplate,5,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn53181749,Immunocytochemistry images,ImagingAssayTemplate,16,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn53181761,qPCR analysis,ProcessedExpressionTemplate,12,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn53479336,Milestone 5 - analyzed images,ProcessedExpressionTemplate,3,FALSE,,,,,FALSE,,,FALSE
+DataFlow,hIPSC modeling of sensory neuron-regulated NF1-deficient Schwann cell growth,syn53479343,Milestone 4 - analyzed images,ProcessedExpressionTemplate,3,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301413,Patient Metadata (cohort 1),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301414,Drug Screening (cohort 1),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301415,Whole Genome Sequencing (cohort 1),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301416,RNAseq of cNF Tumors (cohort 1),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301417,Proteomic data of cNF tumors (cohort 1),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301418,Predictive modeling,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301419,Patient Metadata (cohort 2),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301420,Drug Screening (cohort 2),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301421,Whole Genome Sequencing (cohort 2),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301422,RNAseq of cNF Tumors (cohort 2),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301423,Proteomic data of cNF tumors (cohort 2),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301424,Predictive modeling 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301425,Patient Metadata (cohort 3),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301426,Drug Screening (cohort 3),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301427,Whole Genome Sequencing (cohort 3),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301428,RNAseq of cNF Tumors (cohort 3),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301429,Proteomic data of cNF tumors (cohort 3),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging patient-derived cutaneous neurofibroma organoid models to identify biomarkers of drug response,syn51301430,Predictive modeling 2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333302,Drosophila NF1 Screen Protocol,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333303,NF1 Functional Kinome Screen,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333304,Kinome phenotyping images,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333305,Kinome phenotyping measurements,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333306,Kinome phenotyping measurements 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333307,Kinome phenotyping images (secondary members),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333308,Kinome phenotyping measurements (secondary members),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333309,Kinome phenotyping measurements (secondary members) 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333310,Mosaic clone candidate kinase screen,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333311,Mosaic clone candidate kinase screen 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333312,Phenotyping candidate hits,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333313,RNAi-knockdown,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333314,Drosophila eye disc twin spot assay protocol,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333315,Viability assays,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333316,Phenotyping top compounds,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333317,Twin spot assays,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333318,Twin spot assays 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333319,RNAi-knockdown 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333320,Mouse NF1 neurospheroid cell competition assays,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333321,Mouse NF1 neurospheroid cell competition assays (mixed cultures),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,A Whole Animal Approach For Developing A Novel cNF Therapeutic Lead,syn51333322,Mouse NF1 neurospheroid IHC,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356709,Photographs of cohort1-timepoint1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356710,SFDI of cohort1-timepoint1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356711,OCT of cohort1-timepoint1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356712,PAS of cohort1-timepoint1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356713,IHC of cohort1-timepoint1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356714,Protocols,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356715,Photographs of cohort2-timepoint1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356716,SFDI of cohort2-timepoint1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356717,OCT of cohort2-timepoint1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356718,PAS of cohort2-timepoint1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356719,Model,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356720,Photographs of cohort1-timepoint2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356721,SFDI of cohort1-timepoint2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356722,OCT of cohort1-timepoint2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356723,PAS of cohort1-timepoint2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356724,Photographs of cohort2-timepoint2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356725,Photographs of cohort2-timepoint2 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356726,SFDI of cohort2-timepoint2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356727,OCT of cohort2-timepoint2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356728,PAS of cohort2-timepoint2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356729,Histology of cohort2-timepoint2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356730,Photographs of cohort1-timepoint3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356731,Photographs of cohort1-timepoint3 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356732,SFDI of cohort1-timepoint3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356733,OCT of cohort1-timepoint3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356734,PAS of cohort1-timepoint3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356735,Histology of cohort1-timepoint3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356736,Photographs of cohort2-timepoint3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356737,SFDI of cohort2-timepoint3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356738,OCT of cohort2-timepoint3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356739,PAS of cohort2-timepoint3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Optical Detection of Nascent cNF and Development of a Laser Treatment Strategy,syn51356740,Histology of cohort2-timepoint3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploring the role of cutaneous innervation in the initiation and development of cNFs in neurofibromatosis type 1,syn51356828,Aim 1_Protocols,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploring the role of cutaneous innervation in the initiation and development of cNFs in neurofibromatosis type 1,syn51356829,Aim1_NF1 Patients_IHC,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploring the role of cutaneous innervation in the initiation and development of cNFs in neurofibromatosis type 1,syn52811687,Aim1_Nf1-KO Mice_IHC,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploring the role of cutaneous innervation in the initiation and development of cNFs in neurofibromatosis type 1,syn52811688,Mice_TOM+SP+TH,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploring the role of cutaneous innervation in the initiation and development of cNFs in neurofibromatosis type 1,syn52812106,Mice_TOM+PGP9.5+CGRP,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploring the role of cutaneous innervation in the initiation and development of cNFs in neurofibromatosis type 1,syn52812280,Aim1_Nf1-KO Mice_CGRP DOSAGE,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploring the role of cutaneous innervation in the initiation and development of cNFs in neurofibromatosis type 1,syn53066425,Aim1_NF1 Patients_QST,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Investigating the clinical impact of cutaneous neurofibromas in a large clinical and photographic database,syn51356864,Patient-reported cNF features,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Investigating the clinical impact of cutaneous neurofibromas in a large clinical and photographic database,syn51356865,cNF and feature counts,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Investigating the clinical impact of cutaneous neurofibromas in a large clinical and photographic database,syn51356866,Year 1 survey data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Investigating the clinical impact of cutaneous neurofibromas in a large clinical and photographic database,syn51356867,cNF and feature counts 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Investigating the clinical impact of cutaneous neurofibromas in a large clinical and photographic database,syn51356868,Year 2 survey data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Investigating the clinical impact of cutaneous neurofibromas in a large clinical and photographic database,syn51356869,Year 3 survey data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Investigating the clinical impact of cutaneous neurofibromas in a large clinical and photographic database,syn51356870,Year 4 survey data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Investigating the clinical impact of cutaneous neurofibromas in a large clinical and photographic database,syn51356871,Year 5 survey data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360855,3D Electron microscopy protocols,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360856,3D confocal protocols,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360857,3D confocal protocols 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360858,3D EM (Webknossos),,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360859,3D EM quantification,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360860,3D EM Myelination quantification,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360861,Tumor development quantification,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360862,Nerve architecture defect quantification,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360863,3D EM webKnossos,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360864,Tumor development quantification 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360865,Neurofibroma formation,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360866,RNA-FISH,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360867,SUSHI protocol,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360868,3D EM of human cNF,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360869,3D confocal imaging of human cNF,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360870,"Live imaging of mouse cNF (OPTIONAL dataset, delete this row if not uploading raw data)",,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,New Targets for the Treatment of Cutaneous Neurofibromas,syn51360871,Live imaging of mouse cNF,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364183,Trial 1B Ex-vivo Tumor necrosis,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364184,Trial 1A Tumor Vol,ClinicalAssayTemplate,9,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364185,Trial 1A Patient Reported Outcomes,ClinicalAssayTemplate,17,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364186,Trial 1A Pain scores,ClinicalAssayTemplate,17,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364187,Trial 1A histology,ClinicalAssayTemplate,3,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364188,Trial 2 Tumor Volume,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364189,Trial 2 Patient Reported Outcomes,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364190,Trial 2 pain scores,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364191,Trial 2 histology,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364192,Trial 3 Tumor volume,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364193,Trial 3 Patient Reported Outcomes,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364194,Trial 3 pain scores,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Novel Treatments for Cutaneous Neurofibroma,syn51364195,Trial 3 histology,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Standardizing the qualitative and quantitative analysis of cutNF in NF1-KO mice and exploring drugs targeting tumor cells and their microenvironment in this model,syn51471543,Analysis,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Standardizing the qualitative and quantitative analysis of cutNF in NF1-KO mice and exploring drugs targeting tumor cells and their microenvironment in this model,syn51667226,Raw Data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Standardizing the qualitative and quantitative analysis of cutNF in NF1-KO mice and exploring drugs targeting tumor cells and their microenvironment in this model,syn51667227,Results Macroscopic and IHC Analysis,ImagingAssayTemplate,5,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Standardizing the qualitative and quantitative analysis of cutNF in NF1-KO mice and exploring drugs targeting tumor cells and their microenvironment in this model,syn53162872,Imaging,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Standardizing the qualitative and quantitative analysis of cutNF in NF1-KO mice and exploring drugs targeting tumor cells and their microenvironment in this model,syn53162873,FACS,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Targeting the stem-like cells in Plexiform Neurofibromas,syn51664335,cell viability- HSP90i,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Targeting the stem-like cells in Plexiform Neurofibromas,syn51664336,cell viability - HSP90i + Selumetinib,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Targeting the stem-like cells in Plexiform Neurofibromas,syn51664337,cell viability - alt HSP90i,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Targeting the stem-like cells in Plexiform Neurofibromas,syn51664338,cell viability of other drugs,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Targeting the stem-like cells in Plexiform Neurofibromas,syn51664339,cell viability - mouse model embryos - HSP90i,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Targeting the stem-like cells in Plexiform Neurofibromas,syn51664340,cell viability - mouse model embryos - combination screen,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Targeting the stem-like cells in Plexiform Neurofibromas,syn51664341,survival - PN allograft,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Targeting the stem-like cells in Plexiform Neurofibromas,syn51664342,tumor measurements - PN allografts - HSP90i + combination,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Targeting the stem-like cells in Plexiform Neurofibromas,syn51664343,Histology - HSP90i,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Targeting the stem-like cells in Plexiform Neurofibromas,syn51664344,tumor measurement 6 week old,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Targeting the stem-like cells in Plexiform Neurofibromas,syn51664345,histology - Combination,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Effectiveness of a Telehealth Group for Improving Peer Relationships for Adolescents with Neurofibromatosis Type 1,syn52506034,Intake,ClinicalAssayTemplate,9,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Effectiveness of a Telehealth Group for Improving Peer Relationships for Adolescents with Neurofibromatosis Type 1,syn52506035,Outcome Data,ClinicalAssayTemplate,5,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Effectiveness of a Telehealth Group for Improving Peer Relationships for Adolescents with Neurofibromatosis Type 1,syn52953860,Codebook,ClinicalAssayTemplate,1,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Bromodomain Inhibitors to Prevent Development of Resistance to Targeted Kinase Inhibitors in Schwannomas,syn51907743,RNA-seq,RNASeqTemplate,89,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging a Precision Medicine Platform to Predict Novel Therapies for Malignant Peripheral Nerve Sheath Tumors,syn52369034,PDXMT-Drug,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging a Precision Medicine Platform to Predict Novel Therapies for Malignant Peripheral Nerve Sheath Tumors,syn52369035,PDX-MT RNASeq,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging a Precision Medicine Platform to Predict Novel Therapies for Malignant Peripheral Nerve Sheath Tumors,syn52369036,proteomics,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging a Precision Medicine Platform to Predict Novel Therapies for Malignant Peripheral Nerve Sheath Tumors,syn52369037,immunoblotting results,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging a Precision Medicine Platform to Predict Novel Therapies for Malignant Peripheral Nerve Sheath Tumors,syn52369038,PDX RNASeq,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging a Precision Medicine Platform to Predict Novel Therapies for Malignant Peripheral Nerve Sheath Tumors,syn52369039,WES of PDX,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging a Precision Medicine Platform to Predict Novel Therapies for Malignant Peripheral Nerve Sheath Tumors,syn52369040,PDX-MT drug combinations,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging a Precision Medicine Platform to Predict Novel Therapies for Malignant Peripheral Nerve Sheath Tumors,syn52369041,PDX global and phospho proteomics,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Leveraging a Precision Medicine Platform to Predict Novel Therapies for Malignant Peripheral Nerve Sheath Tumors,syn52369042,PDX drug combination studies,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Identification of drugs targeting epigenetic regulators in an iPSC-based 3D MPNST model,syn52396696,MIPE600_MPNST,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Risk factors and characteristics of NF1-associated cancer,syn52396766,Multiple cancers,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Risk factors and characteristics of NF1-associated cancer,syn52396767,Family history of cancer,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Risk factors and characteristics of NF1-associated cancer,syn52396768,Characteristics of NF1-associated breast cancer,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Investigating the link between sensory and social deficits in a Drosophila model of Neurofibromatosis type I,syn52399594,Behavior Data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Investigating the link between sensory and social deficits in a Drosophila model of Neurofibromatosis type I,syn52399595,Ca2+ Imaging,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Development of Nanobody-decorated Bacterial Outer Membrane Vesicles for Schwannoma Immunotherapy,syn52399628,"Tumor growth, survival assay",,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Development of Nanobody-decorated Bacterial Outer Membrane Vesicles for Schwannoma Immunotherapy,syn52399629,Immune cell response,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Co-Targeting HMGB1 and EGF signaling for the treatment of NF2 and associated hearing loss,syn52676855,Macrophage-NLRP3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Co-Targeting HMGB1 and EGF signaling for the treatment of NF2 and associated hearing loss,syn52676856,Macrophage-cytokine,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Co-Targeting HMGB1 and EGF signaling for the treatment of NF2 and associated hearing loss,syn52676857,HMGB1-Hearing markers,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Co-Targeting HMGB1 and EGF signaling for the treatment of NF2 and associated hearing loss,syn52676858,NLRP3-cytokine,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Co-Targeting HMGB1 and EGF signaling for the treatment of NF2 and associated hearing loss,syn52676859,EGFRi survival data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Co-Targeting HMGB1 and EGF signaling for the treatment of NF2 and associated hearing loss,syn52676860,Combination of HMGBi and EGFRi,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677050,Focus Group Guide,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677051,Transcripts Focus Groups - Milestone 2,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677052,Transcript Focus Groups - Milestone 3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677053,Focus Group Demographics - Milestone 3,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677054,Cognitive Interview Guide,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677055,Cognitive Interview Transcripts - Milestone 4,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677056,Cognitive Interview Demographics - Milestone 4,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677057,Demographic Survey Data Demographics - Milestone 6,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677058,Skindex-16,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677059,FACE-Q Appearance-related Distress,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677060,Children's Dermatology Life Quality Index - Milestone 6,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677061,PROMIS Cognitive Function - Milestone 6,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Assessment of Tumor-Related Disfigurement and Appearance Concerns in Neurofibromatosis Type 1,syn52677062,cNF-skindex,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Mechanisms of MPNST Metastasis,syn52781880,In vitro metastasic phenotype data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Mechanisms of MPNST Metastasis,syn52781882,In vitro tumor growth data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Uncovering the molecular landscape of cutaneous neurofibromas,syn53072193,RNA-seq Batch 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Uncovering the molecular landscape of cutaneous neurofibromas,syn53072194,Clinical variable table Batch 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Uncovering the molecular landscape of cutaneous neurofibromas,syn53072195,Single-cell RNA-seq raw data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Uncovering the molecular landscape of cutaneous neurofibromas,syn53072196,Single-cell sample clinical variables,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Uncovering the molecular landscape of cutaneous neurofibromas,syn53072197,Single cell RNA-seq processed data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploiting Aneuploidy in NF1-MPNST - Prognostication and Understanding Pathogenesis,syn53128824,Whole Genome Sequencing,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploiting Aneuploidy in NF1-MPNST - Prognostication and Understanding Pathogenesis,syn53128825,single cell RNA-seq fastq files,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploiting Aneuploidy in NF1-MPNST - Prognostication and Understanding Pathogenesis,syn53128826,single cell RNA-seq h5ad files,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploiting Aneuploidy in NF1-MPNST - Prognostication and Understanding Pathogenesis,syn53128827,Proteomics,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Exploiting Aneuploidy in NF1-MPNST - Prognostication and Understanding Pathogenesis,syn53128828,in-situ hybridization data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Tumor-Macrophage Interactions in Schwannoma,syn53130030,HALO analysis,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Tumor-Macrophage Interactions in Schwannoma,syn53130031,EV characterization,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Tumor-Macrophage Interactions in Schwannoma,syn53130033,Flow cytometry,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Demonstrating Clinical Benefit of New Treatments for NF2-related schwannomatosis - Developing A More Comprehensive and Sensitive Measure of Quality of Life for NF2 Clinical Trials,syn53181389,Interviews,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Demonstrating Clinical Benefit of New Treatments for NF2-related schwannomatosis - Developing A More Comprehensive and Sensitive Measure of Quality of Life for NF2 Clinical Trials,syn53181390,Interviews 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Demonstrating Clinical Benefit of New Treatments for NF2-related schwannomatosis - Developing A More Comprehensive and Sensitive Measure of Quality of Life for NF2 Clinical Trials,syn53181391,Survey,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Demonstrating Clinical Benefit of New Treatments for NF2-related schwannomatosis - Developing A More Comprehensive and Sensitive Measure of Quality of Life for NF2 Clinical Trials,syn53181392,Clinical Trial,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Dissecting DGCR8 syndrome and the molecular mechanisms driving DGCR8-associated schwannomatosis,syn53183722,Methylation Data,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Dissecting DGCR8 syndrome and the molecular mechanisms driving DGCR8-associated schwannomatosis,syn53183723,RNA-seq,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Dissecting DGCR8 syndrome and the molecular mechanisms driving DGCR8-associated schwannomatosis,syn53183724,microRNA-seq,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,To understand the role of Apelin mediated angiogenesis in NF2 associated tumors,syn53183748,Western Blotting,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,To understand the role of Apelin mediated angiogenesis in NF2 associated tumors,syn53183749,Model generation,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,To understand the role of Apelin mediated angiogenesis in NF2 associated tumors,syn53183750,Model generation 1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,To understand the role of Apelin mediated angiogenesis in NF2 associated tumors,syn53183751,Tube formation,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,To understand the role of Apelin mediated angiogenesis in NF2 associated tumors,syn53183752,In vivo work,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Translating Basic Research towards Improved Clinical and Therapeutic Approaches,syn53185184,FTI plus lovastatin,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Nanopore-based genomic analysis of minimally invasive biopsies of ANNUBP and MPNST for better diagnostics and management,syn53335638,NanoporeDNAseq,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Nanopore-based genomic analysis of minimally invasive biopsies of ANNUBP and MPNST for better diagnostics and management,syn53335639,NanoporeDNAseq - flowcells subset,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,CENPF as a biomarker and therapeutic target for NF1-associated MPNST,syn53405346,CENPF Patient IHC,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,CENPF as a biomarker and therapeutic target for NF1-associated MPNST,syn53405347,CENPF Patient IHC  1,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,CENPF as a biomarker and therapeutic target for NF1-associated MPNST,syn53405348,Cell Titer Glo MPNST cell lines,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,CENPF as a biomarker and therapeutic target for NF1-associated MPNST,syn53405349,Caspase Glo MPNST cell lines,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Mirdametinib Monotherapy in Adults With Neurofibromatosis 1 (NF1) and Cutaneous Neurofibromas (cNF). (Mirda),syn53480727,REDCap,,,FALSE,,,,,FALSE,,,FALSE
+DataFlow,Mirdametinib Monotherapy in Adults With Neurofibromatosis 1 (NF1) and Cutaneous Neurofibromas (cNF). (Mirda),syn53480728,Statistical Analysis,,,FALSE,,,,,FALSE,,,FALSE
