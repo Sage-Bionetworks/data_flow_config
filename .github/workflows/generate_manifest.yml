@@ -41,7 +41,7 @@ jobs:
       - name: Generate Data Flow manifest
         shell: Rscript {0}
         run: |
-          config_path <- file.path(${{ env.community_dir }}, "dfa_config.json")
+          config_path <- file.path("${{ env.community_dir }}", "dfa_config.json")
           print(config_path)
 
           config <- jsonlite::read_json(config_path)
