@@ -33,10 +33,22 @@ jobs:
           echo 'data_model=${{ inputs.data_model }}' >> $GITHUB_ENV
           echo 'community_dir=${{ inputs.community_dir }}' >> $GITHUB_ENV
 
+          if ${{ github.event_name == 'pull_request' }}
+          then
+            echo 'community_dir=Demo' >>  $GITHUB_ENV
+          fi
+
       - name: Generate Data Flow manifest
         shell: Rscript {0}
         run: |
           config_path <- file.path(${{ env.community_dir }}, "dfa_config.json")
           print(config_path)
 
-          config <- jsonlite::read_json(nf_path)
+          config <- jsonlite::read_json(config_path)
+
+          dataflow_manifest <- dfamodules::generate_dataflow_manifest(
+            asset_view = dfa_config$dcc$synapse_asset_view,
+            schema_url = dfa_config$dcc$data_model_url,
+            access_token = Sys.getenv("SYNAPSE_PAT"),
+            na_replace = "",
+            base_url = Sys.getenv("SCHEMATIC_BASE_URL_PROD"))
