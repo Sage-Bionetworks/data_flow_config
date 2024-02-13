@@ -35,4 +35,6 @@ jobs:
 
       - name: Generate Data Flow manifest
         shell: Rscript {0}
-        run: print(list.files())
+        run: |
+          config <- file.path(${{ env.community_dir }}/dfa_config.json)
+          print(config)
