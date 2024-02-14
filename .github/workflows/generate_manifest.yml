@@ -68,4 +68,4 @@ jobs:
             schema_url = dfa_config$dcc$data_model_url,
             access_token = "${{ secrets.SYNAPSE_PAT }}",
             na_replace = "",
-            base_url = "${{ env.SCHEMATIC_BASE_URL }}"
+            base_url = "${{ env.SCHEMATIC_BASE_URL }}")
