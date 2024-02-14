@@ -69,3 +69,5 @@ jobs:
             access_token = "${{ secrets.SYNAPSE_PAT }}",
             na_replace = "",
             base_url = "${{ env.SCHEMATIC_BASE_URL }}")
+            
+          print(dataflow_manifest)
