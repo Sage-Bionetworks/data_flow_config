@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GH_PAT }}
+      SCHEMATIC_BASE_URL: https://schematic.api.sagebionetworks.org
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v4
@@ -47,7 +48,7 @@ jobs:
           if ${{ github.event_name == 'pull_request' }}
           then
             echo 'community_dir=Demo' >>  $GITHUB_ENV
-            echo 'data_model==www.datamodel.com' >>  $GITHUB_ENV
+            echo 'data_model==https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/23151479c608274b6057f9d4f82b9e8294237fdc/Demo/dataflow_component.jsonld' >>  $GITHUB_ENV
           else
             echo 'data_model=${{ inputs.data_model }}' >> $GITHUB_ENV
             echo 'community_dir=${{ inputs.community_dir }}' >> $GITHUB_ENV
@@ -59,11 +60,12 @@ jobs:
           config_path <- file.path("${{ env.community_dir }}", "dfa_config.json")
           print(config_path)
 
-          config <- jsonlite::read_json(config_path)
+          dfa_config <- jsonlite::read_json(config_path)
+          print(dfa_config)
 
           dataflow_manifest <- dfamodules::generate_dataflow_manifest(
             asset_view = dfa_config$dcc$synapse_asset_view,
             schema_url = dfa_config$dcc$data_model_url,
-            access_token = Sys.getenv("SYNAPSE_PAT"),
+            access_token = "${{ secrets.SYNAPSE_PAT }}",
             na_replace = "",
-            base_url = Sys.getenv("SCHEMATIC_BASE_URL_PROD"))
+            base_url = "${{ env.SCHEMATIC_BASE_URL }}"
