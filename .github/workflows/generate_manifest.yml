@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pip libicu-dev
+          sudo apt-get install -y pip libicu-dev libcurl4-openssl-dev
 
       - name: Install R packages
         run: |
