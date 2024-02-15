@@ -45,7 +45,7 @@ jobs:
       - name: Write environment variables
         shell: bash
         run: |
-          if ${{ github.event_name == 'pull_request' }}
+          if ${{ github.event_name != 'workflow_dispatch' }}
           then
             echo 'community_dir=HTAN' >>  $GITHUB_ENV
             echo 'data_model==https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/23151479c608274b6057f9d4f82b9e8294237fdc/HTAN/dataflow_component.jsonld' >>  $GITHUB_ENV
