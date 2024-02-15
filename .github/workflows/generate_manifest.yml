@@ -12,7 +12,6 @@ on:
       community_dir:
         description: Community directory
         required: true
-  pull_request:
 
 jobs:
   generate-manifest:
@@ -62,6 +61,8 @@ jobs:
 
           dfa_config <- jsonlite::read_json(config_path)
           print(dfa_config)
+
+          tryCatch
 
           dataflow_manifest <- dfamodules::generate_dataflow_manifest(
             asset_view = dfa_config$dcc$synapse_asset_view,
