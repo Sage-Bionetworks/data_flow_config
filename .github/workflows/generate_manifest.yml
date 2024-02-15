@@ -71,7 +71,6 @@ jobs:
                 access_token = "${{ secrets.SYNAPSE_PAT }}",
                 na_replace = "",
                 base_url = "${{ env.SCHEMATIC_BASE_URL }}")
-              )
             },
             error = function(e) {
               message("ERROR: Data Flow manifest generation has failed")
