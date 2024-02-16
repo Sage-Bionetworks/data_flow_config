@@ -3,7 +3,7 @@
       "name": "HTAN - All Projects",
       "synapse_asset_view": "syn20446927",
       "manifest_dataset_id": "syn52799109",
-      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/23151479c608274b6057f9d4f82b9e8294237fdc/HTAN/dataflow_component.jsonld",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/fds-1486-generate-manifest-action/Demo/dataflow_component.jsonld",
       "logo_location": "",
       "logo_link": "",
       "dcc_help_link": "",

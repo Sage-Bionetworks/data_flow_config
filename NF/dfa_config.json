@@ -3,7 +3,7 @@
       "name": "NF",
       "synapse_asset_view": "syn16858331",
       "manifest_dataset_id": "syn53284228",
-      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/dev-json/NF/dataflow_component.jsonld",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/fds-1486-generate-manifest-action/Demo/dataflow_component.jsonld",
       "logo_location": "",
       "logo_link": "",
       "dcc_help_link": "",
