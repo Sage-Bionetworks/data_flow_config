@@ -76,9 +76,13 @@ jobs:
               stop("ERROR: Data Flow manifest generation has failed")
             }
           )
+
+          message("Successfully generated Data Flow Manifest")
           print(dataflow_manifest)
 
           filepath <- file.path("${{ env.community_dir }}", "synapse_storage_manifest_dataflow.csv")
+
+          message("Writing manifest to ", filepath)
 
           write.csv(
             x = dataflow_manifest,
