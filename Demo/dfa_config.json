@@ -3,7 +3,7 @@
       "name": "FAIR Demo",
       "synapse_asset_view": "syn50896957",
       "manifest_dataset_id": "syn53162973",
-      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/https://github.com/Sage-Bionetworks/data_flow_config/blob/483e93c6389869319972685f42f45f1c896c0a24/Demo/dataflow_component.jsonld",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/fds-1614-config-display-names/Demo/dataflow_component.jsonld",
       "logo_location": "",
       "logo_link": "",
       "dcc_help_link": "",
