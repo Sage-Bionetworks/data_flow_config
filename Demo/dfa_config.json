@@ -17,7 +17,6 @@
         "dataset_name": "Folder Name",
         "dataset_type": "Data Type",
         "upload_date": "Date Uploaded",
-        "num_items": "Number of Items",
         "dataset_size": "Dataset Size",
         "scheduled_release_date": "Scheduled Release Date",
         "status": "Status",
