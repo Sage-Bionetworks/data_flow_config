@@ -15,7 +15,7 @@
         "contributor": "Contributor",
         "dataset_id": "Manifest Synapse ID",
         "dataset_type": "Data Type",
-        "blue": "This should fail"
+        "blue": "This should fail",
         "upload_date": "Date Uploaded",
         "dataset_size": "Dataset Size",
         "scheduled_release_date": "Scheduled Release Date",
