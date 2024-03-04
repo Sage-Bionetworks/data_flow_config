@@ -9,3 +9,4 @@ Each DCC that will use the Data Flow App will need a record in the `dcc_config.c
 | `manifest_dataset_id` | Dataset folder SynId of Data Flow manifest |
 | `schema_url` | URL to jsonld schema (RAW github file) |
 | `icon` | Convert TRUE / FALSE to checkmark / x icons |
+| `display_name` | Dashboard display names for schema attributes. If no display name is specified, attribute is hidden from dashboard. |
