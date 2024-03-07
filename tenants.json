@@ -14,6 +14,11 @@
         "name":"NF",
         "synapse_asset_view":"syn16858331",
         "config_location":"NF/dfa_config.json"
+      },
+      {
+        "name":"Permissions Testing",
+        "synapse_asset_view":"syn53972963",
+        "config_location":"perm_test/dfa_config.json"
       }
     ]
   }
