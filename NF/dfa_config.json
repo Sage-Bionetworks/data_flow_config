@@ -13,6 +13,7 @@
       "icon": true,
       "display_names": {
         "contributor": "studyName",
+        "study_status": "studyStatus",
         "dataset_id": "Manifest Synapse ID",
         "dataset_name": "Folder Name",
         "dataset_type": "Data Type",
