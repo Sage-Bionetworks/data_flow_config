@@ -1,0 +1,15 @@
+{
+    "dcc": {
+      "name": "HTAN - All Projects",
+      "synapse_asset_view": "syn20446927",
+      "manifest_dataset_id": "syn52799109",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/dev/HTAN/dataflow_component.jsonld",
+      "logo_location": "",
+      "logo_link": "",
+      "dcc_help_link": "",
+      "portal_help_link": ""
+    },
+    "dfa_dashboard": {
+      "icon": false
+    }
+  }

@@ -1,0 +1,31 @@
+{
+    "dcc": {
+      "name": "permissions testing",
+      "synapse_asset_view": "syn53972963",
+      "manifest_dataset_id": "syn53972959",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/62568b72e8ddcd6c38a49d6c177bc32de2da79fe/perm_test/dataflow_component.jsonld",
+      "logo_location": "",
+      "logo_link": "",
+      "dcc_help_link": "",
+      "portal_help_link": ""
+    },
+    "dfa_dashboard": {
+      "icon": true,
+      "display_names": {
+        "contributor": "Contributor",
+        "dataset_id": "Manifest Synapse ID",
+        "dataset_name": "Folder Name",
+        "dataset_type": "Data Type",
+        "upload_date": "Date Uploaded",
+        "num_items": "Number of Items",
+        "dataset_size": "Dataset Size",
+        "scheduled_release_date": "Scheduled Release Date",
+        "status": "Status",
+        "released_destinations": "Released Destination",
+        "metadata_check": "Metadata Check",
+        "governance_compliance": "Governance Compliance Check",
+        "release_date": "Release Date",
+        "released": "Released"
+      }
+    }
+  }

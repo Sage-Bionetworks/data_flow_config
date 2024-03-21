@@ -1,0 +1,24 @@
+{
+    "tenants": [
+      {
+        "name":"FAIR Demo",
+        "synapse_asset_view":"syn50896957",
+        "config_location":"Demo/dfa_config.json"
+      },
+      {
+        "name":"HTAN - All Projects",
+        "synapse_asset_view":"syn20446927",
+        "config_location":"HTAN/dfa_config.json"
+      },
+      {
+        "name":"NF",
+        "synapse_asset_view":"syn16858331",
+        "config_location":"NF/dfa_config.json"
+      },
+      {
+        "name":"Permissions Testing",
+        "synapse_asset_view":"syn53972963",
+        "config_location":"perm_test/dfa_config.json"
+      }
+    ]
+  }
