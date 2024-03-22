@@ -1,9 +1,9 @@
 {
     "dcc": {
-      "name": "NF",
-      "synapse_asset_view": "syn16858331",
-      "manifest_dataset_id": "syn53284228",
-      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/fds-1833-NF-add-study-status/NF/dataflow_component.jsonld",
+      "name": "Test Study Status",
+      "synapse_asset_view": "syn54126648",
+      "manifest_dataset_id": "syn54126605",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/fds-1835-study-status-widget/tst_study_status/dataflow_component.jsonld",
       "logo_location": "",
       "logo_link": "",
       "dcc_help_link": "",
@@ -13,6 +13,7 @@
       "icon": true,
       "display_names": {
         "contributor": "studyName",
+        "study_status": "STUDY STATUS",
         "dataset_id": "Manifest Synapse ID",
         "dataset_name": "Folder Name",
         "dataset_type": "Data Type",

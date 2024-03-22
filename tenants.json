@@ -1,6 +1,11 @@
 {
     "tenants": [
       {
+        "name":"TEST - study_status attribute",
+        "synapse_asset_view":"syn54126648",
+        "config_location":"tst_study_status/dfa_config.json"
+      },
+      {
         "name":"FAIR Demo",
         "synapse_asset_view":"syn50896957",
         "config_location":"Demo/dfa_config.json"
