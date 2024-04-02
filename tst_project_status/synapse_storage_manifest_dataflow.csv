@@ -1,6 +1,0 @@
-contributor_id,Component,contributor,dataset_id,dataset_name,dataset_type,num_items,project_status,metadata_check,upload_date,status,release_date,governance_compliance,released_destinations,released,scheduled_release_date,dataset_size
-syn123,DataFlow,Test contributor 1 - Completed,syn987,Test study 1,,,Completed,FALSE,,,,FALSE,,FALSE,,
-syn245,DataFlow,Test contributor 2 - Active,syn780,Test study 2,,,Active,FALSE,,,,FALSE,,FALSE,,
-syn644,DataFlow,Test contributor 3 - Withdrawn,syn888,Test study 3,,,Withdrawn,FALSE,,,,FALSE,,FALSE,,
-syn321,DataFlow,Test contributor 4 - No annotation (empty string),syn808,Test study 4,,,,FALSE,,,,FALSE,,FALSE,,
-syn333,DataFlow,Test contributor 5 - Typo,syn999,Test study 5,,,active,FALSE,,,,FALSE,,FALSE,,

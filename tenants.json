@@ -1,14 +1,24 @@
 {
     "tenants": [
       {
-        "name":"TEST - project_status attribute",
-        "synapse_asset_view":"syn55225979",
-        "config_location":"tst_project_status/dfa_config.json"
-      },
-      {
         "name":"TEST - study_status attribute",
         "synapse_asset_view":"syn54126648",
         "config_location":"tst_study_status/dfa_config.json"
+      },
+      {
+        "name":"FAIR Demo",
+        "synapse_asset_view":"syn50896957",
+        "config_location":"Demo/dfa_config.json"
+      },
+      {
+        "name":"HTAN - All Projects",
+        "synapse_asset_view":"syn20446927",
+        "config_location":"HTAN/dfa_config.json"
+      },
+      {
+        "name":"NF",
+        "synapse_asset_view":"syn16858331",
+        "config_location":"NF/dfa_config.json"
       }
     ]
   }
