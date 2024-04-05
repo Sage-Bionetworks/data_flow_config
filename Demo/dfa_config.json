@@ -12,7 +12,7 @@
     "dfa_dashboard": {
       "icon": true,
       "display_names": {
-        "contributor": "Contributor",
+        "source": "Contributor",
         "dataset_id": "Manifest Synapse ID",
         "dataset_name": "Folder Name",
         "dataset_type": "Data Type",
