@@ -12,7 +12,8 @@
     "dfa_dashboard": {
       "icon": true,
       "display_names": {
-        "contributor": "studyName",
+        "source": "studyName",
+        "study_status": "studyStatus",
         "dataset_id": "Manifest Synapse ID",
         "dataset_name": "Folder Name",
         "dataset_type": "Data Type",
