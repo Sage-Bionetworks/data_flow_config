@@ -4,6 +4,16 @@
         "name":"TEST - source attribute",
         "synapse_asset_view":"syn55226012",
         "config_location":"tst_source/dfa_config.json"
+      },
+      {
+        "name":"Demo",
+        "synapse_asset_view":"syn20446927",
+        "config_location":"Demo/dfa_config.json"
+      },
+      {
+        "name":"NF",
+        "synapse_asset_view":"syn16858331",
+        "config_location":"NF/dfa_config.json"
       }
     ]
   }
