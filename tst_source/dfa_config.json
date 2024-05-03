@@ -3,7 +3,7 @@
       "name": "TEST source attribute",
       "synapse_asset_view": "syn55226012",
       "manifest_dataset_id": "syn55226003",
-      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/fds-1583-contributor-to-source/tst_study_status/dataflow_component.jsonld",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/fds-1583-contributor-to-source/tst_source/dataflow_component.jsonld",
       "logo_location": "",
       "logo_link": "",
       "dcc_help_link": "",
