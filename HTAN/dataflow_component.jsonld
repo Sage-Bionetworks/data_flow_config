@@ -27,7 +27,7 @@
                     "@id": "bts:Component"
                 },
                 {
-                    "@id": "bts:Contributor"
+                    "@id": "bts:Source"
                 },
                 {
                     "@id": "bts:DatasetId"
@@ -89,10 +89,10 @@
             "sms:validationRules": []
         },
         {
-            "@id": "bts:Contributor",
+            "@id": "bts:Source",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The team of a contributing user. The team reflects the contributing institution in standard DCC setups).  Note that for DCCs picking option 1 in the standard DCC setup, the Synapse project name also reflects the contributing institutions and can be used instead of the team name.",
-            "rdfs:label": "Contributor",
+            "rdfs:comment": "Data source",
+            "rdfs:label": "Source",
             "rdfs:subClassOf": [
                 {
                     "@id": "bts:DataProperty"
@@ -101,7 +101,7 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             },
-            "sms:displayName": "contributor",
+            "sms:displayName": "source",
             "sms:required": "sms:true",
             "sms:validationRules": [
                 "str"
