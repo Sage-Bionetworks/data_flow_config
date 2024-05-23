@@ -1,6 +1,6 @@
 Attribute,Description,Valid Values,DependsOn,Properties,Required,Parent,DependsOn Component,Source,Validation Rules
-dataFlow,Describes data flow status,,"Component, source, dataset_id, dataset_name, dataset_type, upload_date, num_items, dataset_size, scheduled_release_date, release_date, status, released_destinations, released, metadata_check, governance_compliance",,TRUE,DataType,,,
-source,"Source contributing the data. The team reflects the contributing institution in standard DCC setups).  Note that for DCCs picking option 1 in the standard DCC setup, the Synapse project name also reflects the contributing institutions and can be used instead of the team name.",,,,TRUE,DataProperty,,,str
+dataFlow,Describes data flow status,,"Component, contributor, dataset_id, dataset_name, dataset_type, upload_date, num_items, dataset_size, scheduled_release_date, release_date, status, released_destinations, released, metadata_check, governance_compliance, study_status",,TRUE,DataType,,,
+contributor,"The team of a contributing user. The team reflects the contributing institution in standard DCC setups).  Note that for DCCs picking option 1 in the standard DCC setup, the Synapse project name also reflects the contributing institutions and can be used instead of the team name.",,,,TRUE,DataProperty,,,str
 dataset_id,Synapse ID of manifest folder,,,,TRUE,DataProperty,,,str
 dataset_name,Name of dataset,,,,TRUE,DataProperty,,,str
 dataset_type,Type of dataset,,,,TRUE,DataProperty,,,str
@@ -15,3 +15,4 @@ released,"Whether or not a dataset has been released
 ","TRUE, FALSE",,,TRUE,DataProperty,,,str
 metadata_check,Whether or not a dataset has passed DCA/Schematic metadata checks,"TRUE, FALSE",,,TRUE,DataProperty,,,str
 governance_compliance,Whether or not all files in a manifest have passed governance requirements,"TRUE, FALSE",,,TRUE,DataProperty,,,str
+study_status,Is a study still active or has it been completed?,,,,TRUE,DataProperty,,,str

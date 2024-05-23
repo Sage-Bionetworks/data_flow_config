@@ -67,6 +67,9 @@
                 },
                 {
                     "@id": "bts:GovernanceCompliance"
+                },
+                {
+                    "@id": "bts:StudyStatus"
                 }
             ],
             "sms:validationRules": []
@@ -91,7 +94,7 @@
         {
             "@id": "bts:Source",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Data source",
+            "rdfs:comment": "The source of this data. Could be a team of a contributing user or a study.",
             "rdfs:label": "Source",
             "rdfs:subClassOf": [
                 {
@@ -413,6 +416,25 @@
                 }
             ],
             "sms:displayName": "governance_compliance",
+            "sms:required": "sms:true",
+            "sms:validationRules": [
+                "str"
+            ]
+        },
+        {
+            "@id": "bts:StudyStatus",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Is a study still active or has it been completed?",
+            "rdfs:label": "StudyStatus",
+            "rdfs:subClassOf": [
+                {
+                    "@id": "bts:DataProperty"
+                }
+            ],
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            },
+            "sms:displayName": "study_status",
             "sms:required": "sms:true",
             "sms:validationRules": [
                 "str"
