@@ -34,7 +34,7 @@ jobs:
           options(repos = c(REPO_NAME = "https://packagemanager.rstudio.com/all/__linux__/xenial/latest", 
             getOption("repos")))
           install.packages(c("stringi", "jsonlite", "dplyr", "remotes", "curl","httr"))
-          remotes::install_github("Sage-Bionetworks/dfamodules", ref = "dev")
+          remotes::install_github("Sage-Bionetworks/dfamodules@v24.5.1")
         shell: Rscript {0}
 
       - name: Generate Data Flow manifest and Submit to Synapse
