@@ -1,9 +1,9 @@
 {
     "dcc": {
-      "name": "FAIR Demo",
-      "synapse_asset_view": "syn50896957",
-      "manifest_dataset_id": "syn53162973",
-      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/dev/Demo/dataflow_component.jsonld",
+      "name": "Test Manifest Generation / Submission",
+      "synapse_asset_view": "syn60255280",
+      "manifest_dataset_id": "syn60227691",
+      "data_model_url": "",
       "logo_location": "",
       "logo_link": "",
       "dcc_help_link": "",
