@@ -44,6 +44,8 @@ jobs:
       - name: Write environment variables
         shell: bash
         run: |
+          echo 'input data_model url: ${{ inputs.data_model }}'
+          echo 'input community_dir: ${{ inputs.community_dir }}'
           echo 'data_model=${{ inputs.data_model }}' >> $GITHUB_ENV
           echo 'community_dir=${{ inputs.community_dir }}' >> $GITHUB_ENV
 
@@ -64,6 +66,7 @@ jobs:
                 base_url = "${{ env.SCHEMATIC_BASE_URL }}")
             },
             error = function(e) {
+              message(e)
               stop("ERROR: Data Flow manifest generation has failed")
             }
           )
