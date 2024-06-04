@@ -6,8 +6,8 @@ name: generate-dataflow-manifest
 on:
   workflow_dispatch:
     inputs:
-      data_model:
-        description: URL to a jsonld data model file
+      config_dir:
+        description: Directory that contains dfa_config.json (ex. "Demo")
         required: true
 jobs:
   generate-manifest:
@@ -37,16 +37,10 @@ jobs:
           remotes::install_github("Sage-Bionetworks/dfamodules", ref = "dev")
         shell: Rscript {0}
 
-      - name: Write environment variables
-        shell: bash
-        run: |
-          echo 'input data_model url: ${{ inputs.data_model }}'
-          echo 'data_model=${{ inputs.data_model }}' >> $GITHUB_ENV
-
       - name: Generate Data Flow manifest and Submit to Synapse
         shell: Rscript {0}
         run: |
-          config_path <- file.path("${{ env.community_dir }}", "dfa_config.json")
+          config_path <- file.path("${{ env.config_dir }}", "dfa_config.json")
 
           dfa_config <- jsonlite::read_json(config_path)
 
