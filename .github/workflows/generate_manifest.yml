@@ -42,7 +42,6 @@ jobs:
       - name: Set variables
         shell: bash
         run: |
-          echo ${{ github.event_name }}
           if ${{ github.event_name == 'workflow_dispatch' }}
           then
             echo Using variable from manual input
@@ -60,9 +59,9 @@ jobs:
         shell: bash
         run: echo $config_dir
 
-      - name: TEST3
-        shell: Rscript {0}
-        run: print ${{ env.config_dir }}
+      # - name: TEST3
+      #   shell: Rscript {0}
+      #   run: print ${{ env.config_dir }}
 
       - name: TEST4
         shell: Rscript {0}
