@@ -123,6 +123,7 @@ jobs:
             },
             error = function(e) {
               message(e)
+              traceback()
               stop("Failed to submit Data Flow manifest")
             }
           )
