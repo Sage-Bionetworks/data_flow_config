@@ -103,6 +103,10 @@ jobs:
             }
           )
 
+          if (!file.exists("./synapse_storage_manifest_dataflow.csv")) {
+            stop("Can't read file")
+          }
+
           tryCatch(
             {
               dfamodules::model_submit(
