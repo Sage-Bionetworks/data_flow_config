@@ -107,6 +107,8 @@ jobs:
             stop("Can't read file")
           }
 
+          print(dir())
+
           tryCatch(
             {
               dfamodules::model_submit(
@@ -122,7 +124,6 @@ jobs:
                 use_schema_label = TRUE)
             },
             error = function(e) {
-              message(e)
               traceback()
               stop("Failed to submit Data Flow manifest")
             }
