@@ -52,56 +52,72 @@ jobs:
             echo 'config_dir=tst_submit_generated_manifest' >> $GITHUB_ENV
           fi
 
-      - name: Generate Data Flow manifest and Submit to Synapse
+      - name: TEST
+        shell: bash
+        run: echo ${{ env.config_dir }}
+
+      - name: TEST2
+        shell: bash
+        run: echo $config_dir
+
+      - name: TEST3
         shell: Rscript {0}
-        run: |
-          config_path <- file.path("${{ env.config_dir }}", "dfa_config.json")
+        run: print ${{ env.config_dir }}
 
-          dfa_config <- jsonlite::read_json(config_path)
+      - name: TEST4
+        shell: Rscript {0}
+        run: print(Sys.getenv("config_dir"))
 
-          dataflow_manifest <- tryCatch(
-            {
-              dfamodules::generate_dataflow_manifest(
-                asset_view = dfa_config$dcc$synapse_asset_view,
-                schema_url = dfa_config$dcc$data_model_url,
-                access_token = "${{ secrets.SYNAPSE_PAT }}",
-                na_replace = "",
-                base_url = "${{ env.SCHEMATIC_BASE_URL }}")
-            },
-            error = function(e) {
-              message(e)
-              stop("ERROR: Data Flow manifest generation has failed")
-            }
-          )
+      # - name: Generate Data Flow manifest and Submit to Synapse
+      #   shell: Rscript {0}
+      #   run: |
+      #     config_path <- file.path("$config_dir", "dfa_config.json")
 
-          message("Successfully generated Data Flow Manifest")
+      #     dfa_config <- jsonlite::read_json(config_path)
 
-          write.csv(
-            x = dataflow_manifest,
-            file = "synapse_storage_manifest_dataflow.csv",
-            row.names = FALSE
-          )
+      #     dataflow_manifest <- tryCatch(
+      #       {
+      #         dfamodules::generate_dataflow_manifest(
+      #           asset_view = dfa_config$dcc$synapse_asset_view,
+      #           schema_url = dfa_config$dcc$data_model_url,
+      #           access_token = "${{ secrets.SYNAPSE_PAT }}",
+      #           na_replace = "",
+      #           base_url = "${{ env.SCHEMATIC_BASE_URL }}")
+      #       },
+      #       error = function(e) {
+      #         message(e)
+      #         stop("ERROR: Data Flow manifest generation has failed")
+      #       }
+      #     )
 
-          submit_id <- try(
-            {
-              dfamodules::model_submit(
-                data_type = "DataFlow",
-                asset_view = dfa_config$dcc$synapse_asset_view,
-                dataset_id = dfa_config$dcc$manifest_dataset_id,
-                file_name = "synapse_storage_manifest_dataflow.csv",
-                access_token = "${{ secrets.SYNAPSE_PAT }}",
-                restrict_rules = TRUE,
-                manifest_record_type = "table_and_file",
-                base_url = "${{ env.SCHEMATIC_BASE_URL }}",
-                schema_url = dfa_config$dcc$data_model_url,
-                use_schema_label = TRUE)
-            },
-            silent = TRUE
-          )
+      #     message("Successfully generated Data Flow Manifest")
 
-          if (inherits(submit_id, "try-error")) {
-            stop("ERROR: Manifest submission failed")
-          } else {
-            synapse_url <- file.path("https://www.synapse.org/Synapse:", dfa_config$dcc$manifest_dataset_id)
-            message("Successfully submitted manifest to ", synapse_url)
-          }
+      #     write.csv(
+      #       x = dataflow_manifest,
+      #       file = "synapse_storage_manifest_dataflow.csv",
+      #       row.names = FALSE
+      #     )
+
+      #     submit_id <- try(
+      #       {
+      #         dfamodules::model_submit(
+      #           data_type = "DataFlow",
+      #           asset_view = dfa_config$dcc$synapse_asset_view,
+      #           dataset_id = dfa_config$dcc$manifest_dataset_id,
+      #           file_name = "synapse_storage_manifest_dataflow.csv",
+      #           access_token = "${{ secrets.SYNAPSE_PAT }}",
+      #           restrict_rules = TRUE,
+      #           manifest_record_type = "table_and_file",
+      #           base_url = "${{ env.SCHEMATIC_BASE_URL }}",
+      #           schema_url = dfa_config$dcc$data_model_url,
+      #           use_schema_label = TRUE)
+      #       },
+      #       silent = TRUE
+      #     )
+
+      #     if (inherits(submit_id, "try-error")) {
+      #       stop("ERROR: Manifest submission failed")
+      #     } else {
+      #       synapse_url <- file.path("https://www.synapse.org/Synapse:", dfa_config$dcc$manifest_dataset_id)
+      #       message("Successfully submitted manifest to ", synapse_url)
+      #     }
