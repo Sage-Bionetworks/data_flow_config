@@ -9,6 +9,8 @@ on:
       config_dir:
         description: Directory that contains dfa_config.json (ex. "Demo")
         required: true
+  push:
+
 jobs:
   generate-manifest:
     runs-on: ubuntu-latest
@@ -36,6 +38,19 @@ jobs:
           install.packages(c("stringi", "jsonlite", "dplyr", "remotes", "curl","httr"))
           remotes::install_github("Sage-Bionetworks/dfamodules@v24.5.1")
         shell: Rscript {0}
+
+      - name: Set variables
+        shell: bash
+        run: |
+          echo ${{ github.event_name }}
+          if ${{ github.event_name == 'workflow_dispatch' }}
+          then
+            echo Using variable from manual input
+            echo 'config_dir=${{ inputs.config_dir }}' >> $GITHUB_ENV
+          else
+            echo using testing variables
+            echo 'config_dir=tst_submit_generated_manifest' >> $GITHUB_ENV
+          fi
 
       - name: Generate Data Flow manifest and Submit to Synapse
         shell: Rscript {0}
@@ -74,7 +89,7 @@ jobs:
                 asset_view = dfa_config$dcc$synapse_asset_view,
                 dataset_id = dfa_config$dcc$manifest_dataset_id,
                 file_name = "synapse_storage_manifest_dataflow.csv",
-                access_token = "${{ env.SYNAPSE_PAT }}",
+                access_token = "${{ secrets.SYNAPSE_PAT }}",
                 restrict_rules = TRUE,
                 manifest_record_type = "table_and_file",
                 base_url = "${{ env.SCHEMATIC_BASE_URL }}",
