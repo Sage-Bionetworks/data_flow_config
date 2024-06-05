@@ -3,7 +3,7 @@
       "name": "Test Manifest Generation / Submission",
       "synapse_asset_view": "syn60255280",
       "manifest_dataset_id": "syn60227691",
-      "data_model_url": "",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/fds-1762-submit-generated-manifest/tst_submit_generated_manifest/dataflow_component.jsonld",
       "logo_location": "",
       "logo_link": "",
       "dcc_help_link": "",
