@@ -93,7 +93,7 @@ jobs:
             {
               write.csv(
                 x = dataflow_manifest,
-                file = "synapse_storage_manifest_dataflow.csv",
+                file = "./synapse_storage_manifest_dataflow.csv",
                 row.names = FALSE
               )
             },
@@ -106,13 +106,13 @@ jobs:
           tryCatch(
             {
               dfamodules::model_submit(
-                data_type = "DataFlow",
+                data_type = "NULL",
                 asset_view = dfa_config$dcc$synapse_asset_view,
                 dataset_id = dfa_config$dcc$manifest_dataset_id,
                 file_name = "./synapse_storage_manifest_dataflow.csv",
                 access_token = "${{ secrets.SYNAPSE_PAT }}",
                 restrict_rules = TRUE,
-                manifest_record_type = "table_and_file",
+                manifest_record_type = "file_only",
                 base_url = "${{ env.SCHEMATIC_BASE_URL }}",
                 schema_url = dfa_config$dcc$data_model_url,
                 use_schema_label = TRUE)
