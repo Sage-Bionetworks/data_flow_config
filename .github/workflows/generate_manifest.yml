@@ -54,9 +54,23 @@ jobs:
       - name: Generate Data Flow manifest and Submit to Synapse
         shell: Rscript {0}
         run: |
+
+          if (!file.exists(Sys.getenv("CONFIG_DIR"))) {
+            stop(paste0("No configuration directory at ", Sys.getenv("CONFIG_DIR")))
+            }
+
           config_path <- file.path(Sys.getenv("CONFIG_DIR"), "dfa_config.json")
 
+          if (!file.exists(config_path)) {
+            stop(paste0("dfa_config.json does not exist at ", config_path))
+          }
+
+          message("Getting configuration file from ", config_path)
+
           dfa_config <- jsonlite::read_json(config_path)
+
+          if (is.null(dfa_config$dcc$synapse_asset_view) | nchar(dfa_config$dcc$synapse_asset_view) == 0) stop("dfa_config.json is missing synapse_asset_view")
+          if (is.null(dfa_config$dcc$data_model_url) | nchar(dfa_config$dcc$data_model_url) == 0) stop("dfa_config.json is missing data_model_url")
 
           dataflow_manifest <- tryCatch(
             {
@@ -69,7 +83,7 @@ jobs:
             },
             error = function(e) {
               message(e)
-              stop("ERROR: Failed to generate Data Flow manifest")
+              stop("Failed to generate Data Flow manifest")
             }
           )
 
@@ -85,7 +99,7 @@ jobs:
             },
             error = function(e) {
               message(e)
-              stop("ERROR: Failed to write Data Flow manifest")
+              stop("Failed to write Data Flow manifest")
             }
           )
 
@@ -107,7 +121,7 @@ jobs:
           )
 
           if (inherits(submit_id, "try-error")) {
-            stop("ERROR: Failed to submit Data Flow manifest to Synapse")
+            stop("Failed to submit Data Flow manifest to Synapse")
           } else {
             synapse_url <- file.path("https://www.synapse.org/Synapse:", dfa_config$dcc$manifest_dataset_id)
             message("Successfully submitted manifest to ", synapse_url)
