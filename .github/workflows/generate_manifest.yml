@@ -112,7 +112,7 @@ jobs:
           tryCatch(
             {
               dfamodules::model_submit(
-                data_type = "NULL",
+                data_type = NULL,
                 asset_view = dfa_config$dcc$synapse_asset_view,
                 dataset_id = dfa_config$dcc$manifest_dataset_id,
                 file_name = "./synapse_storage_manifest_dataflow.csv",
