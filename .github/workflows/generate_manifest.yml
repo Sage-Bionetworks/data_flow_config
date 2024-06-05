@@ -89,7 +89,7 @@ jobs:
 
           message("Successfully generated Data Flow Manifest")
 
-          dataflow_manifest <- tryCatch(
+          tryCatch(
             {
               write.csv(
                 x = dataflow_manifest,
@@ -103,13 +103,13 @@ jobs:
             }
           )
 
-          submit_id <- try(
+          tryCatch(
             {
               dfamodules::model_submit(
                 data_type = "DataFlow",
                 asset_view = dfa_config$dcc$synapse_asset_view,
                 dataset_id = dfa_config$dcc$manifest_dataset_id,
-                file_name = "synapse_storage_manifest_dataflow.csv",
+                file_name = "./synapse_storage_manifest_dataflow.csv",
                 access_token = "${{ secrets.SYNAPSE_PAT }}",
                 restrict_rules = TRUE,
                 manifest_record_type = "table_and_file",
@@ -117,12 +117,11 @@ jobs:
                 schema_url = dfa_config$dcc$data_model_url,
                 use_schema_label = TRUE)
             },
-            silent = TRUE
+            error = function(e) {
+              message(e)
+              stop("Failed to submit Data Flow manifest")
+            }
           )
 
-          if (inherits(submit_id, "try-error")) {
-            stop("Failed to submit Data Flow manifest to Synapse")
-          } else {
-            synapse_url <- file.path("https://www.synapse.org/Synapse:", dfa_config$dcc$manifest_dataset_id)
-            message("Successfully submitted manifest to ", synapse_url)
-          }
+          synapse_url <- file.path("https://www.synapse.org/Synapse:", dfa_config$dcc$manifest_dataset_id)
+          message("Successfully submitted manifest to ", synapse_url)
