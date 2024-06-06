@@ -9,7 +9,6 @@ on:
       config_dir:
         description: Directory that contains dfa_config.json (ex. "Demo")
         required: true
-  push:
 
 jobs:
   generate-manifest:
@@ -102,12 +101,6 @@ jobs:
               stop("Failed to write Data Flow manifest")
             }
           )
-
-          if (!file.exists("./synapse_storage_manifest_dataflow.csv")) {
-            stop("Can't read file")
-          }
-
-          print(dir())
 
           tryCatch(
             {
