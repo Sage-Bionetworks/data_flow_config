@@ -1,0 +1,31 @@
+{
+    "dcc": {
+      "name": "Test Manifest Generation / Submission",
+      "synapse_asset_view": "syn60255280",
+      "manifest_dataset_id": "syn60227691",
+      "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data_flow_config/fds-1762-submit-generated-manifest/tst_submit_generated_manifest/dataflow_component.jsonld",
+      "logo_location": "",
+      "logo_link": "",
+      "dcc_help_link": "",
+      "portal_help_link": ""
+    },
+    "dfa_dashboard": {
+      "icon": true,
+      "display_names": {
+        "source": "Contributor",
+        "dataset_id": "Manifest Synapse ID",
+        "dataset_name": "Folder Name",
+        "dataset_type": "Data Type",
+        "upload_date": "Date Uploaded",
+        "num_items": "Number of Items",
+        "dataset_size": "Dataset Size",
+        "scheduled_release_date": "Scheduled Release Date",
+        "status": "Status",
+        "released_destinations": "Released Destination",
+        "metadata_check": "Metadata Check",
+        "governance_compliance": "Governance Compliance Check",
+        "release_date": "Release Date",
+        "released": "Released"
+      }
+    }
+  }

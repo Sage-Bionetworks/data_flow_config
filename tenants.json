@@ -24,6 +24,11 @@
         "name":"TEST - source attribute",
         "synapse_asset_view":"syn55226012",
         "config_location":"tst_source/dfa_config.json"
+      },
+      {
+        "name":"TEST - submit manifest after generating",
+        "synapse_asset_view":"syn60255280",
+        "config_location":"tst_submit_generated_manifest/dfa_config.json"
       }
     ]
   }
